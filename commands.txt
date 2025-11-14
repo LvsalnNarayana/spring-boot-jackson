@@ -1,0 +1,4 @@
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=object_mapper --method=serializeToFile
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=object_mapper --method=serializeToBytes
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=object_mapper --method=deserializeFromString
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=object_mapper --method=deserializeFromFile
