@@ -1,4 +1,11 @@
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=object_mapper --method=serializeToString
 java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=object_mapper --method=serializeToFile
 java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=object_mapper --method=serializeToBytes
 java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=object_mapper --method=deserializeFromString
 java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=object_mapper --method=deserializeFromFile
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=object_mapper --method=deserializeList
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=object_mapper --method=readTreeModel
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=object_mapper --method=configureDeserialization
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=object_mapper --method=configureSerialization
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=object_mapper --method=setCustomDateFormat
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=object_mapper --method=registerCustomModule
