@@ -9,3 +9,39 @@ java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=object_mapper --
 java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=object_mapper --method=configureSerialization
 java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=object_mapper --method=setCustomDateFormat
 java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=object_mapper --method=registerCustomModule
+
+
+# Tree Model
+
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=treemodel --method=demonstrateReadTree
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=treemodel --method=demonstratePath
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=treemodel --method=demonstrateGet
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=treemodel --method=demonstrateAsPrimitives
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=treemodel --method=demonstrateFieldsIterator
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=treemodel --method=demonstrateArrayIteration
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=treemodel --method=demonstrateFindValue
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=treemodel --method=demonstrateAtPath
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=treemodel --method=demonstratePutSetRemove
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=treemodel --method=demonstrateCreateNodes
+
+
+# Streaming
+
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=streaming --method=generateOneGbJsonLogFile
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=streaming --method=parseLargeFileWithStreaming
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=streaming --method=processNdjsonLineByLine
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=streaming --method=streamAndFilterLogs
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=streaming --method=convertNdjsonToJsonArrayStreaming
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=streaming --method=countLogLevelsStreaming
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=streaming --method=demonstrateCreateParser
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=streaming --method=demonstrateNextTokenAndGetValues
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=streaming --method=demonstrateSkipChildren
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=streaming --method=demonstrateCreateGenerator
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=streaming --method=demonstrateWriteArray
+
+
+# Advanced Features
+
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=advanced --method=demonstratePolymorphism
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=advanced --method=demonstrateJsonFilter
+java -jar target/spring-boot-jackson-0.0.1-SNAPSHOT.jar --topic=advanced --method=demonstratePojoBuilder
